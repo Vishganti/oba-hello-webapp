@@ -1,3 +1,3 @@
-FROM --platform=linux/amd64 nginx:alpine
+FROM nginx:alpine
 COPY src/index.html /usr/share/nginx/html/
 EXPOSE 80
